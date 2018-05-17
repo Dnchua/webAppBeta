@@ -1,0 +1,123 @@
+<style type="text/css">
+    .shelf__top{
+        padding:10px 20px 0;
+    }
+    .shelf__top .shelf-search{
+        margin-right: 46px;
+    }
+    .shelf-search{
+        font-size: 12px;
+        color: #ccc;
+        border: 1px solid #eee;
+        border-radius:4px ;
+        line-height: 36px;
+        background: url(http://image.read.duokan.com/mfsv2/download/fdsc3/p01dSYLeWtSR/tY73MgTfVw7UAS.png) no-repeat 10px center;
+        background-size: 14px;
+        padding-left: 32px;
+    }
+    .shelf_swich{
+        width: 36px;
+        height: 36px;
+        float:right;
+        border-radius: 4px;
+        background: url(http://image.read.duokan.com/mfsv2/download/fdsc3/p01yLF3fEj8l/b7UfAdlfufQKML.png) no-repeat center;
+        background-size: 16px;
+        border:1px solid #eee;
+    }
+    .shelf_container{
+       overflow: hidden;
+    }
+    .book-list{
+        padding:0 20px;
+    }
+    .book-list li{
+        padding:13px 0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .book-list li:last-child{
+        border-bottom: none;
+    }
+    .shelf_cover{
+        float: left;
+        position: relative;
+        width:100px;
+        height:150px ;
+        background: #eeece9;
+        box-shadow:0 6px 5px -3px #aaa ;
+        border: 1px solid #f0f0f0;
+        overflow: hidden;
+        border-bottom: none;
+    }
+    .shelf_cover img{
+        width: 100%;
+        height: 100%;
+        border-radius: 1px;
+    }
+    .shelf_container .shelf_info{
+        margin-left: 115px;
+        padding-top:6px;
+        background: #fff;
+    }
+    .shelf_title{
+        margin-top: 15px;
+        font:16px/17px a;
+        color:rgba(0,0,0,0.9);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+    }
+    .shelf_author{
+        margin-top: 12px;
+        font:12px/12px a;
+        color:rgb(0,0,0,0.8);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .shelf_readed,.shelf_latest{
+        margin-top: 12px;
+        font:12px/12px a;
+        color:rgb(0,0,0,0.6);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+</style>
+<div class="shelf">
+    <div class="shelf__top">
+        <div class="shelf_swich">
+
+        </div>
+        <a href="/search">
+            <div class="shelf-search">输入作者/书名/关键字</div>
+        </a>
+    </div>
+    <ul class="book-list">
+        <li>
+            <div class="shelf_container">
+                <div class="shelf_cover">
+                    <img src="http://cover.read.duokan.com/mfsv2/download/fdsc3/p01PWSycwvjd/zeDAuyxVAB21Ji.jpg" alt="">
+                </div>
+                <div class="shelf_info">
+                    <p class="shelf_title">书名</p>
+                    <p class="shelf_author">作者</p>
+                    <p class="shelf_readed">已读</p>
+                    <p class="shelf_latest">最新</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="shelf_container">
+                <div class="shelf_cover">
+                    <img src="http://cover.read.duokan.com/mfsv2/download/fdsc3/p01PWSycwvjd/zeDAuyxVAB21Ji.jpg" alt="">
+                </div>
+                <div class="shelf_info">
+                    <p class="shelf_title">书名</p>
+                    <p class="shelf_author">作者</p>
+                    <p class="shelf_readed">已读</p>
+                    <p class="shelf_latest">最新</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
